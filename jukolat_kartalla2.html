@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e515ec4f7bd4cd1aa7069e6cc96f146 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0e515ec4f7bd4cd1aa7069e6cc96f146" ></div>
+        
+</body>
+<script>    
+    
+            var map_0e515ec4f7bd4cd1aa7069e6cc96f146 = L.map(
+                "map_0e515ec4f7bd4cd1aa7069e6cc96f146",
+                {
+                    center: [65.2240872, 27.7334227],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+
+            
+
+        
+    
+            var tile_layer_3117aa2105454118941953863d2b1b14 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 7, "maxZoom": 7, "minZoom": 5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+            var circle_marker_46c13d4a66244b638edeac7ecf9f0d9c = L.circleMarker(
+                [66.4976214, 25.7192101],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_acc639376b4140dba1ca1cd2adda34b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f46d5ed346f74b00acbd0ac922e0c0fe = $(`<div id="html_f46d5ed346f74b00acbd0ac922e0c0fe" style="width: 100.0%; height: 100.0%;"><b>Rovaniemi, 2021</b><br>Jukola: 750, Venlat: 692. Yhteensä juoksijoita: 8018</div>`)[0];
+            popup_acc639376b4140dba1ca1cd2adda34b6.setContent(html_f46d5ed346f74b00acbd0ac922e0c0fe);
+        
+
+        circle_marker_46c13d4a66244b638edeac7ecf9f0d9c.bindPopup(popup_acc639376b4140dba1ca1cd2adda34b6)
+        ;
+
+        
+    
+    
+            var circle_marker_b99b19e1ed81475ba8ac7a3612c2e919 = L.circleMarker(
+                [61.4649006, 24.0659379],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.0, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_ae35d2ef74fc48f89f04b6b0112dc47d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91a574f8be114d73ad2738b55684e07e = $(`<div id="html_91a574f8be114d73ad2738b55684e07e" style="width: 100.0%; height: 100.0%;"><b>Kangasala, 2019</b><br>Jukola: 1653, Venlat: 1624. Yhteensä juoksijoita: 18067</div>`)[0];
+            popup_ae35d2ef74fc48f89f04b6b0112dc47d.setContent(html_91a574f8be114d73ad2738b55684e07e);
+        
+
+        circle_marker_b99b19e1ed81475ba8ac7a3612c2e919.bindPopup(popup_ae35d2ef74fc48f89f04b6b0112dc47d)
+        ;
+
+        
+    
+    
+            var circle_marker_bec62b8d45674046ab1cc8c585230bf7 = L.circleMarker(
+                [60.9882542, 25.5152983],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.03074932829137, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_627a4cd91ac049d693b0458623aa2a00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_263638ea5d3e4cd59b4387505f17c88c = $(`<div id="html_263638ea5d3e4cd59b4387505f17c88c" style="width: 100.0%; height: 100.0%;"><b>Lahti, 2018</b><br>Jukola: 1644, Venlat: 1518. Yhteensä juoksijoita: 17580</div>`)[0];
+            popup_627a4cd91ac049d693b0458623aa2a00.setContent(html_263638ea5d3e4cd59b4387505f17c88c);
+        
+
+        circle_marker_bec62b8d45674046ab1cc8c585230bf7.bindPopup(popup_627a4cd91ac049d693b0458623aa2a00)
+        ;
+
+        
+    
+    
+            var circle_marker_a937e4b1f1a3406c8d098b18cd456a9c = L.circleMarker(
+                [62.6006257, 29.7584591],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.287789829833816, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_7860864aeceb4850b597a44fe143b3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9955b342eba44e82a05f8aa3d96599e6 = $(`<div id="html_9955b342eba44e82a05f8aa3d96599e6" style="width: 100.0%; height: 100.0%;"><b>Joensuu, 2017</b><br>Jukola: 1352, Venlat: 1182. Yhteensä juoksijoita: 14192</div>`)[0];
+            popup_7860864aeceb4850b597a44fe143b3d6.setContent(html_9955b342eba44e82a05f8aa3d96599e6);
+        
+
+        circle_marker_a937e4b1f1a3406c8d098b18cd456a9c.bindPopup(popup_7860864aeceb4850b597a44fe143b3d6)
+        ;
+
+        
+    
+    
+            var circle_marker_be195bb5468a4d1196d94eb713bd21b8 = L.circleMarker(
+                [61.0583713, 28.1862742],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.04607423624241, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_cfb4d09ee52842079d7198f9df4ae707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_283aeeffe77d4c2e9cc97f04b570f219 = $(`<div id="html_283aeeffe77d4c2e9cc97f04b570f219" style="width: 100.0%; height: 100.0%;"><b>Lappeenranta, 2016</b><br>Jukola: 1375, Venlat: 1237. Yhteensä juoksijoita: 14573</div>`)[0];
+            popup_cfb4d09ee52842079d7198f9df4ae707.setContent(html_283aeeffe77d4c2e9cc97f04b570f219);
+        
+
+        circle_marker_be195bb5468a4d1196d94eb713bd21b8.bindPopup(popup_cfb4d09ee52842079d7198f9df4ae707)
+        ;
+
+        
+    
+    
+            var circle_marker_9c9df2349027409b9e419bc045b199c5 = L.circleMarker(
+                [60.4570244, 22.6883278],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.57965966762862, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_fa67d85131e74b8583250fccc567cec5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3044c5cb77954c65acffcfd4928475b3 = $(`<div id="html_3044c5cb77954c65acffcfd4928475b3" style="width: 100.0%; height: 100.0%;"><b>Paimio, 2015</b><br>Jukola: 1518, Venlat: 1305. Yhteensä juoksijoita: 15846</div>`)[0];
+            popup_fa67d85131e74b8583250fccc567cec5.setContent(html_3044c5cb77954c65acffcfd4928475b3);
+        
+
+        circle_marker_9c9df2349027409b9e419bc045b199c5.bindPopup(popup_fa67d85131e74b8583250fccc567cec5)
+        ;
+
+        
+    
+    
+            var circle_marker_03375e6501434c18b3a54f90ef1986ed = L.circleMarker(
+                [62.8924601, 27.6781839],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.042989352174345, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_a51a3b21f1cf469f9cac70bf54418b5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59d5d74e928244f2ac8a1c9f88d4451b = $(`<div id="html_59d5d74e928244f2ac8a1c9f88d4451b" style="width: 100.0%; height: 100.0%;"><b>Kuopio, 2014</b><br>Jukola: 1359, Venlat: 1139. Yhteensä juoksijoita: 14069</div>`)[0];
+            popup_a51a3b21f1cf469f9cac70bf54418b5e.setContent(html_59d5d74e928244f2ac8a1c9f88d4451b);
+        
+
+        circle_marker_03375e6501434c18b3a54f90ef1986ed.bindPopup(popup_a51a3b21f1cf469f9cac70bf54418b5e)
+        ;
+
+        
+    
+    
+            var circle_marker_7db60fb5cf7845b9a345f160823ae15a = L.circleMarker(
+                [61.8639814, 25.1845044],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.393272962483831, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_921290f823b7497bb3347f8be7d61a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eaac4244be34ac78c60f78dad272535 = $(`<div id="html_0eaac4244be34ac78c60f78dad272535" style="width: 100.0%; height: 100.0%;"><b>Jämsä, 2013</b><br>Jukola: 1383, Venlat: 1141. Yhteensä juoksijoita: 14245</div>`)[0];
+            popup_921290f823b7497bb3347f8be7d61a01.setContent(html_0eaac4244be34ac78c60f78dad272535);
+        
+
+        circle_marker_7db60fb5cf7845b9a345f160823ae15a.bindPopup(popup_921290f823b7497bb3347f8be7d61a01)
+        ;
+
+        
+    
+    
+            var circle_marker_6dc43efc0f30421990ece79b6c389b32 = L.circleMarker(
+                [60.3091871, 25.0364526],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.536570803064981, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_adc904f7f2b74aac88bda53d913b3b83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59a6ec8f755b4a078c70c4eb971fa0a3 = $(`<div id="html_59a6ec8f755b4a078c70c4eb971fa0a3" style="width: 100.0%; height: 100.0%;"><b>Vantaa, 2012</b><br>Jukola: 1391, Venlat: 1145. Yhteensä juoksijoita: 14317</div>`)[0];
+            popup_adc904f7f2b74aac88bda53d913b3b83.setContent(html_59a6ec8f755b4a078c70c4eb971fa0a3);
+        
+
+        circle_marker_6dc43efc0f30421990ece79b6c389b32.bindPopup(popup_adc904f7f2b74aac88bda53d913b3b83)
+        ;
+
+        
+    
+    
+            var circle_marker_bd4e33de8c9d43029156d67a4ef1e17b = L.circleMarker(
+                [60.58298103341404, 27.710202660441205],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.935316946959897, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_157b13ee53914a82be01bdbcd94d5fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d5b64f8c5e54943b98e451a72b06543 = $(`<div id="html_3d5b64f8c5e54943b98e451a72b06543" style="width: 100.0%; height: 100.0%;"><b>Vironlahti, 2011</b><br>Jukola: 1298, Venlat: 981. Yhteensä juoksijoita: 13010</div>`)[0];
+            popup_157b13ee53914a82be01bdbcd94d5fe0.setContent(html_3d5b64f8c5e54943b98e451a72b06543);
+        
+
+        circle_marker_bd4e33de8c9d43029156d67a4ef1e17b.bindPopup(popup_157b13ee53914a82be01bdbcd94d5fe0)
+        ;
+
+        
+    
+    
+            var circle_marker_f8bebc3fa9d442db931e7d97380f23c5 = L.circleMarker(
+                [60.6016633, 24.6500194],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.14319832819186, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_ec4a1a3ab505490882a789a8d700689a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dc2a5199d364e9dbdb4114752722c87 = $(`<div id="html_2dc2a5199d364e9dbdb4114752722c87" style="width: 100.0%; height: 100.0%;"><b>Kytäjä, 2010</b><br>Jukola: 1232, Venlat: 997. Yhteensä juoksijoita: 12612</div>`)[0];
+            popup_ec4a1a3ab505490882a789a8d700689a.setContent(html_2dc2a5199d364e9dbdb4114752722c87);
+        
+
+        circle_marker_f8bebc3fa9d442db931e7d97380f23c5.bindPopup(popup_ec4a1a3ab505490882a789a8d700689a)
+        ;
+
+        
+    
+    
+            var circle_marker_5bffe41cd4bc48e7a79c703528ad7c77 = L.circleMarker(
+                [61.6877956, 27.2726569],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.946163797392776, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_4f9a5d7323314145ae0d342131b9654f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e78600005f5b4c8386e0967b5a694ec3 = $(`<div id="html_e78600005f5b4c8386e0967b5a694ec3" style="width: 100.0%; height: 100.0%;"><b>Mikkeli, 2009</b><br>Jukola: 1267, Venlat: 911. Yhteensä juoksijoita: 12513</div>`)[0];
+            popup_4f9a5d7323314145ae0d342131b9654f.setContent(html_e78600005f5b4c8386e0967b5a694ec3);
+        
+
+        circle_marker_5bffe41cd4bc48e7a79c703528ad7c77.bindPopup(popup_4f9a5d7323314145ae0d342131b9654f)
+        ;
+
+        
+    
+    
+            var circle_marker_3940b1a4799e4c7b8e1a99b2b936327e = L.circleMarker(
+                [61.4980214, 23.7603118],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.296248382923674, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_c16d113093d7406fb69fe1fa6cee32e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f019287d23284d0890e184b53ad1445c = $(`<div id="html_f019287d23284d0890e184b53ad1445c" style="width: 100.0%; height: 100.0%;"><b>Tampere, 2008</b><br>Jukola: 1172, Venlat: 870. Yhteensä juoksijoita: 11684</div>`)[0];
+            popup_c16d113093d7406fb69fe1fa6cee32e0.setContent(html_f019287d23284d0890e184b53ad1445c);
+        
+
+        circle_marker_3940b1a4799e4c7b8e1a99b2b936327e.bindPopup(popup_c16d113093d7406fb69fe1fa6cee32e0)
+        ;
+
+        
+    
+    
+            var circle_marker_af3653ec80a14d338b20b907c0e6d81a = L.circleMarker(
+                [62.9702783, 23.0068628],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.438451587222609, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_4b7cb9058d8543d6b923878d80f7e38a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9742dd73b0974b30a6fb5f95d0b2f513 = $(`<div id="html_9742dd73b0974b30a6fb5f95d0b2f513" style="width: 100.0%; height: 100.0%;"><b>Lapua, 2007</b><br>Jukola: 1151, Venlat: 799. Yhteensä juoksijoita: 11253</div>`)[0];
+            popup_4b7cb9058d8543d6b923878d80f7e38a.setContent(html_9742dd73b0974b30a6fb5f95d0b2f513);
+        
+
+        circle_marker_af3653ec80a14d338b20b907c0e6d81a.bindPopup(popup_4b7cb9058d8543d6b923878d80f7e38a)
+        ;
+
+        
+    
+    
+            var circle_marker_00f7a863a5ea491db800e11283c08425 = L.circleMarker(
+                [60.388571876492655, 23.12153679739114],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.928948154045178, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_0b8d630ffc6747378529fc69326d8a63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ced94a15e2b94c47b1d5b6cfdf3bf0e5 = $(`<div id="html_ced94a15e2b94c47b1d5b6cfdf3bf0e5" style="width: 100.0%; height: 100.0%;"><b>Salo, 2006</b><br>Jukola: 1115, Venlat: 798. Yhteensä juoksijoita: 10997</div>`)[0];
+            popup_0b8d630ffc6747378529fc69326d8a63.setContent(html_ced94a15e2b94c47b1d5b6cfdf3bf0e5);
+        
+
+        circle_marker_00f7a863a5ea491db800e11283c08425.bindPopup(popup_0b8d630ffc6747378529fc69326d8a63)
+        ;
+
+        
+    
+    
+            var circle_marker_aace728df8b0490fb6065de9ce8c1f3a = L.circleMarker(
+                [60.73904435, 26.8222899962241],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.915016419544234, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_f4380a4cdd35409f9a233f4f7cb58db1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c30b195e9e2e4ccfbbb78f01700f01ee = $(`<div id="html_c30b195e9e2e4ccfbbb78f01700f01ee" style="width: 100.0%; height: 100.0%;"><b>Anjalankoski, 2005</b><br>Jukola: 1130, Venlat: 770. Yhteensä juoksijoita: 10990</div>`)[0];
+            popup_f4380a4cdd35409f9a233f4f7cb58db1.setContent(html_c30b195e9e2e4ccfbbb78f01700f01ee);
+        
+
+        circle_marker_aace728df8b0490fb6065de9ce8c1f3a.bindPopup(popup_f4380a4cdd35409f9a233f4f7cb58db1)
+        ;
+
+        
+    
+    
+            var circle_marker_b8b776d5e56b4654a8465d6d23647731 = L.circleMarker(
+                [61.8212196, 22.6970217],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.964772614190466, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_28122c5d4b6c4d9ea4d76e6b76430552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_662353989a884300a4f3c46b9babdc85 = $(`<div id="html_662353989a884300a4f3c46b9babdc85" style="width: 100.0%; height: 100.0%;"><b>Jämijärvi, 2004</b><br>Jukola: 1137, Venlat: 764. Yhteensä juoksijoita: 11015</div>`)[0];
+            popup_28122c5d4b6c4d9ea4d76e6b76430552.setContent(html_662353989a884300a4f3c46b9babdc85);
+        
+
+        circle_marker_b8b776d5e56b4654a8465d6d23647731.bindPopup(popup_28122c5d4b6c4d9ea4d76e6b76430552)
+        ;
+
+        
+    
+    
+            var circle_marker_035c9c1b012d440aaa02f7d459443bcf = L.circleMarker(
+                [61.7879107, 28.3724362],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.855109961190168, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_ee27e62e79254d068542550ffdbdd1fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cfc6be4f86143569f35164e918f4a34 = $(`<div id="html_5cfc6be4f86143569f35164e918f4a34" style="width: 100.0%; height: 100.0%;"><b>Sulkava, 2003</b><br>Jukola: 1053, Venlat: 646. Yhteensä juoksijoita: 9955</div>`)[0];
+            popup_ee27e62e79254d068542550ffdbdd1fb.setContent(html_5cfc6be4f86143569f35164e918f4a34);
+        
+
+        circle_marker_035c9c1b012d440aaa02f7d459443bcf.bindPopup(popup_ee27e62e79254d068542550ffdbdd1fb)
+        ;
+
+        
+    
+    
+            var circle_marker_9808a03bdb5f41eebef9e8db325eb533 = L.circleMarker(
+                [61.23322975, 25.552879094033575],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.404418350084586, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_4da78879649d4e3799c7a5672c1a1a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f84ba41b11d4ce7a76b247e468b08fb = $(`<div id="html_1f84ba41b11d4ce7a76b247e468b08fb" style="width: 100.0%; height: 100.0%;"><b>Asikkala, 2002</b><br>Jukola: 1065, Venlat: 694. Yhteensä juoksijoita: 10231</div>`)[0];
+            popup_4da78879649d4e3799c7a5672c1a1a62.setContent(html_1f84ba41b11d4ce7a76b247e468b08fb);
+        
+
+        circle_marker_9808a03bdb5f41eebef9e8db325eb533.bindPopup(popup_4da78879649d4e3799c7a5672c1a1a62)
+        ;
+
+        
+    
+    
+            var circle_marker_e110734005694ef0af7fc5ad53faba04 = L.circleMarker(
+                [62.6833379, 21.9833208],
+                {"bubblingMouseEvents": true, "color": "#fca903", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca903", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.618270474674096, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_d9dc98b8213e469abf8b78dd63123d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d700e913ad284d74acad9538a4558d79 = $(`<div id="html_d700e913ad284d74acad9538a4558d79" style="width: 100.0%; height: 100.0%;"><b>Jurva, 2001</b><br>Jukola: 1040, Venlat: 639. Yhteensä juoksijoita: 9836</div>`)[0];
+            popup_d9dc98b8213e469abf8b78dd63123d68.setContent(html_d700e913ad284d74acad9538a4558d79);
+        
+
+        circle_marker_e110734005694ef0af7fc5ad53faba04.bindPopup(popup_d9dc98b8213e469abf8b78dd63123d68)
+        ;
+
+        
+    
+    
+            var circle_marker_d3d15a352fea44ec9c0294cad202f826 = L.circleMarker(
+                [60.67889, 21.9861075],
+                {"bubblingMouseEvents": true, "color": "#09b7de", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#09b7de", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.11884267091253, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_626c8bd851714837aaf976248aa22cdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a02980a870e46b88f6ef36cebc37eca = $(`<div id="html_9a02980a870e46b88f6ef36cebc37eca" style="width: 100.0%; height: 100.0%;"><b>Mynämäki, 2022</b><br>Arvio 17624.0</div>`)[0];
+            popup_626c8bd851714837aaf976248aa22cdb.setContent(html_9a02980a870e46b88f6ef36cebc37eca);
+        
+
+        circle_marker_d3d15a352fea44ec9c0294cad202f826.bindPopup(popup_626c8bd851714837aaf976248aa22cdb)
+        ;
+
+        
+    
+    
+            var circle_marker_c3a4654d039148ee9db5b3a34a449503 = L.circleMarker(
+                [60.3953913, 25.6604862],
+                {"bubblingMouseEvents": true, "color": "#09b7de", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#09b7de", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.567843815305007, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_f2eb720cdcdc4b458ddec132729b88a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_275f5dc1e47c47acbba439a889dec4e2 = $(`<div id="html_275f5dc1e47c47acbba439a889dec4e2" style="width: 100.0%; height: 100.0%;"><b>Porvoo, 2023</b><br>Arvio 17850.0</div>`)[0];
+            popup_f2eb720cdcdc4b458ddec132729b88a8.setContent(html_275f5dc1e47c47acbba439a889dec4e2);
+        
+
+        circle_marker_c3a4654d039148ee9db5b3a34a449503.bindPopup(popup_f2eb720cdcdc4b458ddec132729b88a8)
+        ;
+
+        
+    
+    
+            var circle_marker_ef70bda55e2b48e0ad42055e19bb7fc1 = L.circleMarker(
+                [61.6877956, 27.372656900000003],
+                {"bubblingMouseEvents": true, "color": "#09b7de", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#09b7de", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.656412329585034, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_ca7d0b62c06b41c0a0c31745ec0bef69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_939bfc97d7144178a410503a7910de00 = $(`<div id="html_939bfc97d7144178a410503a7910de00" style="width: 100.0%; height: 100.0%;"><b>Mikkeli, 2024</b><br>Arvio 17392.0</div>`)[0];
+            popup_ca7d0b62c06b41c0a0c31745ec0bef69.setContent(html_939bfc97d7144178a410503a7910de00);
+        
+
+        circle_marker_ef70bda55e2b48e0ad42055e19bb7fc1.bindPopup(popup_ca7d0b62c06b41c0a0c31745ec0bef69)
+        ;
+
+        
+    
+    
+            var circle_marker_38236f4381944dbdbc152a8d44d8b977 = L.circleMarker(
+                [63.0993728, 23.0569547],
+                {"bubblingMouseEvents": true, "color": "#09b7de", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#09b7de", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.28070205990646, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_019db797bd11447fb01603ddeb22a66b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4437dd78a17347febb7bc9a154ee68ef = $(`<div id="html_4437dd78a17347febb7bc9a154ee68ef" style="width: 100.0%; height: 100.0%;"><b>Kauhava, 2025</b><br>Arvio 16701.0</div>`)[0];
+            popup_019db797bd11447fb01603ddeb22a66b.setContent(html_4437dd78a17347febb7bc9a154ee68ef);
+        
+
+        circle_marker_38236f4381944dbdbc152a8d44d8b977.bindPopup(popup_019db797bd11447fb01603ddeb22a66b)
+        ;
+
+        
+    
+    
+            var circle_marker_229d1c3eced04e8f840193b10dbb3949 = L.circleMarker(
+                [60.4674228, 26.9450844],
+                {"bubblingMouseEvents": true, "color": "#09b7de", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#09b7de", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.348514777589806, "stroke": true, "weight": 3}
+            ).addTo(map_0e515ec4f7bd4cd1aa7069e6cc96f146);
+        
+    
+        var popup_05923591f0784ee19fd9dcd2773f20b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a55e4d71be7a4d8791f743af025f440d = $(`<div id="html_a55e4d71be7a4d8791f743af025f440d" style="width: 100.0%; height: 100.0%;"><b>Kotka, 2026</b><br>Arvio 18745.0</div>`)[0];
+            popup_05923591f0784ee19fd9dcd2773f20b5.setContent(html_a55e4d71be7a4d8791f743af025f440d);
+        
+
+        circle_marker_229d1c3eced04e8f840193b10dbb3949.bindPopup(popup_05923591f0784ee19fd9dcd2773f20b5)
+        ;
+
+        
+    
+</script>
